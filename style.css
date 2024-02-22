@@ -17,7 +17,7 @@ html{
 	top: 0;
 	left: 0;
 	z-index: 999999;
-	background: #000;
+	background: rgb(18, 18, 77);
 }
 
 .loader {
@@ -82,7 +82,7 @@ html{
    transform: translateY(-1000px);
    
 }
-.room-title,.navbar,.sidebar{
+.room-title,.navbar{
   font-family: "Taviraj", serif;
 }
 .logo,h5,h2,h1{
@@ -254,6 +254,7 @@ select:focus{
 }
 @media only screen and (min-width: 0px) and (max-width: 640px){
   .Home{
+    margin-top: 70px;
       align-items: center;
   }
   .T-C{
